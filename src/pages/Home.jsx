@@ -35,7 +35,7 @@ function Home(props) {
           .map((element, index) => (
             <Card
               key={element.id}
-              id={index}
+              id={index + 1}
               name={element.name}
               price={element.price}
               image={element.icon}

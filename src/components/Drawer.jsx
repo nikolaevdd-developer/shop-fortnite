@@ -22,8 +22,8 @@ function Drawer(props) {
 
         <div className="items">
           {items.length > 0 ? (
-            items.map((e) => (
-              <div className="cartItem d-flex align-center mb-20">
+            items.map((e, index) => (
+              <div className="cartItem d-flex align-center mb-20" key={index}>
                 <div
                   style={{ backgroundImage: 'image' }}
                   className="cartItemImg"
@@ -72,7 +72,7 @@ function Drawer(props) {
           </div>
         ) : (
           <button className="greenButton" onClick={onClose}>
-            <img src="/img/arrow.svg" alt="Arrow" class="transform-arr" />{' '}
+            <img src="/img/arrow.svg" alt="Arrow" className="transform-arr" />{' '}
             Вернуться обратно
           </button>
         )}

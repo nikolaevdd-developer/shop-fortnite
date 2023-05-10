@@ -35,9 +35,10 @@ function App() {
     getData()
   }, [])
 
-  const removeToCart = (obj) => {
-    axios.delete(`https://644be8164bdbc0cc3a9db75d.mockapi.io/cart/${obj}`)
-    setCartItems((prev) => prev.filter((item) => item.id !== obj))
+  const removeToCart = (id) => {
+    axios.delete(`https://644be8164bdbc0cc3a9db75d.mockapi.io/cart/${id}`)
+    console.log(id)
+    setCartItems((prev) => prev.filter((item) => item.id !== id))
   }
 
   const searchItem = (event) => {
@@ -51,6 +52,7 @@ function App() {
   }
 
   const addToCart = (obj) => {
+    // { name, price, image, id }
     axios.post('https://644be8164bdbc0cc3a9db75d.mockapi.io/cart', obj)
     setCartItems((prev) => [...prev, obj])
     console.log(obj)

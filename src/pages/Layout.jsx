@@ -11,7 +11,7 @@ function Layout(props) {
         <Drawer
           onClose={() => setopenDrawer(false)}
           items={cartItems}
-          remove={(object) => removeToCart(object)}
+          remove={(object) => removeToCart(object)} // object.id
         />
       ) : null}
 
