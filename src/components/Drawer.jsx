@@ -11,7 +11,7 @@ function Drawer(props) {
     <div className="overlay">
       <div className="drawer">
         <h2 className="d-flex justify-between mb-30">
-          Корзина{' '}
+          Корзина Малина
           <img
             className="cu-p"
             src="/img/btn-remove.svg"
