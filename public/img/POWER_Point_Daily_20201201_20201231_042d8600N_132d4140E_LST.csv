@@ -1,0 +1,42 @@
+-BEGIN HEADER-
+NASA/POWER CERES/MERRA2 Native Resolution Daily Data 
+Dates (month/day/year): 12/01/2020 through 12/31/2020 
+Location: Latitude  42.86   Longitude 132.414 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 120.27 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+ALLSKY_SFC_SW_DWN     CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+ALLSKY_SFC_LW_DWN     CERES SYN1deg All Sky Surface Longwave Downward Irradiance (W/m^2) 
+-END HEADER-
+YEAR,MO,DY,ALLSKY_SFC_SW_DWN,ALLSKY_SFC_LW_DWN
+2020,12,1,2.48,236.05
+2020,12,2,2.21,256.24
+2020,12,3,2.37,240.22
+2020,12,4,2.37,253.29
+2020,12,5,2.37,244.41
+2020,12,6,1.01,294.09
+2020,12,7,2.15,233.54
+2020,12,8,2.39,223.19
+2020,12,9,2.12,254.34
+2020,12,10,1.83,267.26
+2020,12,11,1.9,241.8
+2020,12,12,2.21,231.5
+2020,12,13,1.48,234.85
+2020,12,14,1.77,238.36
+2020,12,15,1.79,234.64
+2020,12,16,1.77,224.65
+2020,12,17,2.27,209.02
+2020,12,18,1.97,233.67
+2020,12,19,1.73,238.8
+2020,12,20,2.29,210.75
+2020,12,21,2.19,228.2
+2020,12,22,2.23,231.1
+2020,12,23,1.34,255.15
+2020,12,24,1.79,249.16
+2020,12,25,2.09,219.08
+2020,12,26,2.3,218.78
+2020,12,27,1.6,282.38
+2020,12,28,2.24,236.28
+2020,12,29,1.12,245.96
+2020,12,30,1.54,231.49
+2020,12,31,1.47,241.44
